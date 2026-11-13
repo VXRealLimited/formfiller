@@ -1,0 +1,30 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual / Conda environments
+.venv/
+venv/
+env/
+ENV/
+
+# Gradio temporary uploads & cache
+.gradio/
+flagged/
+
+# Generated output forms (keep folder via .gitkeep, ignore filled PDFs)
+completed/*
+!completed/.gitkeep
+
+# Optional: uncomment below if your blank templates contain sensitive forms you don't want committed
+# templates/*
+# !templates/.gitkeep
+
+# OS & Editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
