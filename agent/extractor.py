@@ -9,6 +9,7 @@ import openpyxl
 
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".bmp"}
 
+
 def _bytes_to_b64(data: bytes) -> str:
     return base64.b64encode(data).decode("utf-8")
 

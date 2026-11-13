@@ -15,16 +15,13 @@ ENV/
 .gradio/
 flagged/
 
-# Generated output forms (keep folder via .gitkeep, ignore filled PDFs)
 completed/*
-!completed/.gitkeep
-
-# Optional: uncomment below if your blank templates contain sensitive forms you don't want committed
-# templates/*
-# !templates/.gitkeep
+templates/*
 
 # OS & Editor clutter
 .DS_Store
 Thumbs.db
 *.swp
 *.swo
+
+*.ipynb
